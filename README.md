@@ -14,3 +14,12 @@ Node.js, Express va PostgreSQL bilan yozilgan oddiy CRUD loyiha (Create va Read)
 | POST | /api/books | Yangi kitob qo'shish (201) |
 | GET | /api/books | Barcha kitoblar (200) |
 | GET | /api/books/:id | Bitta kitob (200 yoki 404) |
+
+
+Also .env informatio nnew for PGadmin
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=backend_task
+DB_USER=postgres
+DB_PASSWORD=Your_pgadmin_password
